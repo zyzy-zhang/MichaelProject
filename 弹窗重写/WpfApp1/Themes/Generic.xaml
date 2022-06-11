@@ -5,13 +5,20 @@
     xmlns:converter="clr-namespace:WpfApp1.Converter">
 
 
+    <!--更新后的1911-->
     
+    <!--1911-->
 
+    <!--下面是Converter转换器-->
     <converter:WindowBaseBorderThicknessConverter x:Key="BorderThicknessConverter"/>
     <converter:WindowBaseCornerRadiusConverter x:Key="CornerRadiusConverter"/>
     <converter:WindowBaseCloseMarginRightConverter x:Key="CloseMarginRightConverter"/>
 
     
+    <!--按钮背景颜色定义-->
+    <Style x:Key="backgroundrgb" TargetType="{x:Type Button}" x:Shared="False">
+        
+    </Style>
 
     <Style x:Key="FontAwesome" >
         <Setter Property="TextElement.FontFamily" Value="pack://application:,,,/Resources/#FontAwesome" />
