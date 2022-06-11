@@ -5,9 +5,7 @@
     xmlns:converter="clr-namespace:WpfApp1.Converter">
 
 
-    <!--更新后的1911-->
     
-    <!--1911-->
 
     <!--下面是Converter转换器-->
     <converter:WindowBaseBorderThicknessConverter x:Key="BorderThicknessConverter"/>
